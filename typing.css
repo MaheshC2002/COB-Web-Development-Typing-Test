@@ -15,7 +15,7 @@ header {
 
 h1 {
     margin: 0;
-    color: #ffcc00; /* Yellow */
+    color: #ffcc00; 
 }
 
 #text-container {
@@ -28,7 +28,7 @@ h1 {
 #quote {
     font-size: 24px;
     margin-bottom: 20px;
-    color: #ff6666; /* Reddish Pink */
+    color: #ff6666; 
 }
 
 #input-text {
@@ -37,13 +37,13 @@ h1 {
     padding: 15px;
     width: 80%;
     max-width: 500px;
-    border: 2px solid #55acee; /* Twitter Blue */
+    border: 2px solid #55acee; 
     border-radius: 8px;
     transition: border-color 0.3s ease;
 }
 
 #input-text:hover {
-    border-color: #4caf50; /* Green */
+    border-color: #4caf50; 
 }
 
 #change-btn,
@@ -58,18 +58,18 @@ h1 {
 }
 
 #change-btn:hover {
-    background-color: #45a049; /* Green */
-    color: #ffffff; /* White */
+    background-color: #45a049; 
+    color: #ffffff; 
 }
 
 #submit-btn:hover {
-    background-color: #3c78d8; /* Blue */
-    color: #ffffff; /* White */
+    background-color: #3c78d8; 
+    color: #ffffff; 
 }
 
 #result {
     margin-top: 20px;
     font-size: 24px;
-    color: #4caf50; /* Green */
+    color: #4caf50; 
     font-weight: bold;
 }
