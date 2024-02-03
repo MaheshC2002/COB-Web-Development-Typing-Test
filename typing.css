@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+    color: #ffcc00; /* Yellow */
+}
+
+#text-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#quote {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ff6666; /* Reddish Pink */
+}
+
+#input-text {
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 15px;
+    width: 80%;
+    max-width: 500px;
+    border: 2px solid #55acee; /* Twitter Blue */
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+}
+
+#input-text:hover {
+    border-color: #4caf50; /* Green */
+}
+
+#change-btn,
+#submit-btn {
+    margin-top: 15px;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+#change-btn:hover {
+    background-color: #45a049; /* Green */
+    color: #ffffff; /* White */
+}
+
+#submit-btn:hover {
+    background-color: #3c78d8; /* Blue */
+    color: #ffffff; /* White */
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #4caf50; /* Green */
+    font-weight: bold;
+}
