@@ -1,13 +1,13 @@
 const sentences = [
     "The quick brown fox jumps over the lazy dog.",
     "She sells seashells by the seashore.",
-    // ... (other sentences)
+    
 ];
 
 const slogans = [
     "Type it right, make it bright!",
     "Swift fingers, sharp mind!",
-    // ... (other slogans)
+    
 ];
 
 const quoteElement = document.getElementById('quote');
